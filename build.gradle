@@ -3,10 +3,10 @@
  */
 
 plugins {
-    id 'com.github.johnrengelman.shadow' version '7.1.1'
-    id 'application'
-    id 'checkstyle'
-    id 'jacoco'
+//    id 'com.github.johnrengelman.shadow' version '7.1.1'
+//    id 'application'
+//    id 'checkstyle'
+//    id 'jacoco'
 }
 
 group 'org.hyperledger.fabric.samples'
