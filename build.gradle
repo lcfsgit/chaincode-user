@@ -72,14 +72,15 @@ test {
 mainClassName = 'org.hyperledger.fabric.contract.ContractRouter'
 
 shadowJar {
-    baseName = 'chaincode'
+    archiveBaseName = 'chaincode'
     version = null
-    classifier = null
+    archiveClassifier = null
 
     manifest {
         attributes 'Main-Class': 'org.hyperledger.fabric.contract.ContractRouter'
     }
 }
-
+sourceCompatibility = 17
+targetCompatibility = 17
 check.dependsOn jacocoTestCoverageVerification
 installDist.dependsOn check
